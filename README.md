@@ -1,27 +1,22 @@
 # sanaas
-
-TODO: Write a description here
+SAN as a srvic is th bst SAN
 
 ## Installation
+* shards install
+* crystal src/sanaas.cr
 
-TODO: Write installation instructions here
+## Usag
 
-## Usage
+### san/:mssag
+SAN a mssag
 
-TODO: Write usage instructions here
+GET `http://localhost:3000/san/SAN%20as%20a%20service%20is%20excellent`:
+```json
+{"err":false,"san":"SAN as a srvic is xcllnt"}
+```
 
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/sanaas/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
-
-## Contributors
-
-- [[your-github-name]](https://github.com/[your-github-name]) Timur Kiyivinski - creator, maintainer
+SAN a mssag with a sparator
+GET `http://localhost:3000/san/SAN%20as%20a%20service%20is%20excellent/%20`:
+```json
+{"err":false,"san":"S A N   a s   a   s r v i c   i s   x c l l n t "}
+```
