@@ -1,4 +1,5 @@
 # sanaas
+From th crators of [san](https://github.com/TimurKiyivinski/san), w provid san as a SAN servic!
 SAN as a srvic is th bst SAN
 
 ## Installation
@@ -15,6 +16,7 @@ GET `http://localhost:3000/san/SAN%20as%20a%20service%20is%20excellent`:
 {"err":false,"san":"SAN as a srvic is xcllnt"}
 ```
 
+### san/:mssag/:sparator
 SAN a mssag with a sparator
 GET `http://localhost:3000/san/SAN%20as%20a%20service%20is%20excellent/%20`:
 ```json
