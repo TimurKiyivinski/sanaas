@@ -1,0 +1,13 @@
+name: sanaas
+version: 0.1.0
+
+authors:
+  - Timur Kiyivinski <deathseclipse@gmail.com>
+
+targets:
+  sanaas:
+    main: src/sanaas.cr
+
+crystal: 0.21.1
+
+license: MIT
