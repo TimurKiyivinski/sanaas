@@ -4,6 +4,11 @@ version: 0.1.0
 authors:
   - Timur Kiyivinski <deathseclipse@gmail.com>
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
 targets:
   sanaas:
     main: src/sanaas.cr
